@@ -15,8 +15,7 @@ This project is a professional job market analytics dashboard built with Streaml
 - `requirements.txt` – Python dependencies
 
 ## 🌐 Live App
-Once deployed, your app will be available at:  
-👉 `https://YOUR-USERNAME.streamlit.app/`
+👉 https://ai-job-dashboard.streamlit.app/
 
 ## 🧠 Built With
 - [Streamlit](https://streamlit.io/)
@@ -27,5 +26,6 @@ Once deployed, your app will be available at:
 ---
 
 👤 **Author**: Amin Keyvanloo
+💡 Open for collaboration and job opportunities in data analysis, dashboard design, and cultural heritage tech.
 📧 a.keyvanloo@gmail.com 
 🔗 [LinkedIn](https://www.linkedin.com/in/amin-keyvanloo-b834022a3/)

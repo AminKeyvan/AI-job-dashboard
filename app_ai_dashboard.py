@@ -1,7 +1,10 @@
 import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
+
 import seaborn as sns
+with st.spinner("🔄 Loading data... Please wait."):
+    df = pd.read_csv("jobs_ai_dashboard.csv")
 
 st.set_page_config(page_title="AI Career Insights Dashboard", layout="wide")
 
@@ -118,3 +121,5 @@ fig, ax = plt.subplots(figsize=(12, 6))
 sns.heatmap(pivot, cmap="YlGnBu", annot=False, fmt="d", ax=ax)
 ax.set_title("Jobs by Skill and Location")
 st.pyplot(fig)
+
+st.caption("💡 This app sleeps when inactive for more than 1 hour (Streamlit free tier).")
